@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/variables.css">
+    <link rel="stylesheet" href="./css/sidebar.css">
+    <link rel="stylesheet" href="./css/typing-efect.css">
+    <link rel="stylesheet" href="./css/sections.css">
+ 
+    
+    <title>Chipasat</title>
+</head>
+<body>
+    <div class="container">
+
+        <nav>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#Presentacion">Presentación</a>
+                <a href="#Mision">Misión</a>
+                <a href="#Caracteristicas">Características</a>
+                <a href="#Equipo">Equipo</a>
+                <a href="#Mas-Informacion">Más información</a> <!--acá va el informe-->
+            </div>
+            <span id="openNav" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+            <script defer src="./js/navBar.js"></script>
+        </nav>
+        
+        <section id="Presentacion">
+            <div class="sectionText">
+
+                <h2>Chipasat</h2>
+                <div class="part">
+                    <h3>El satélite diseñado por alumnos del Instituto Padre Elizalde para evaluar la posibilidad de vivir en otros planetas</h3>
+                    <p>
+                        Chipasat surge como un proyecto para la competencia CANSAT, una iniciativa internacional impulsada por varias agencias espaciales del mundo, entre ellas la NASA(EEUU), la ESA (Europa) y la CONAE (Argentina), a inicios del 2022, la CONAE invitó a los alumnos del Insituto Padre Elizalde a formar parte de la competición anual de CanSats, teniendo como misión crear satélites del tamaño de una lata de Coca-Cola que puedan transmitir datos y aterrizar sin destruirse mediante un paracaídas.
+                    </p>
+                </div>
+            </div>
+            <div class="sectionImage">
+                <img src="" alt="">
+            </div>
+        </section>
+        
+        <section id="Mision">
+            <div class="sectionText">
+                <h2>Misión</h2>
+                <p>
+                    <div class="part">
+                        <h3>
+                            Mision Principal
+                        </h3>
+                        <p>
+                            Consiste en el sensado de presión y temperatura y la transmisión de esos datos a la estación terrena al menos una vez por segundo. 
+                        </p>
+                    </div>
+
+                    <div class="part">
+                        <h3> 
+                            Misión secundaria
+                        </h3>
+                        <p>
+                            La misión secundaria que ideamos consiste, esencialmente, en la búsqueda de ambientes habitables por el ser humano en exoplanetas que fueron previamente analizados.
+                            Buscamos crear un satélite que de ser enviado a estos planetas, potencialmente Pseudo-tierras, pueda hacer un análisis y paneo general sobre las condiciones atmosféricas y capa de ozono (si la hay).
+                        </p>
+                    </div>
+                    
+                </p>
+            </div>
+            <div class="sectionImage">
+                <img src="" alt="">
+            </div>
+            <!-- <p class="typing-efect">Mision: Busqueda de ambientes habitables para el ser humano.</p> -->
+        </section>
+
+        <section id="Caracteristicas">
+            <div class="sectionImage">
+                <img src="./img/" alt="">
+            </div>
+            <div class="sectionText">
+                <h2>Características</h2>
+                <div class="part">
+
+                    <p>
+                        La carga útil, una vez en el aire e iniciando el descenso, se mantendrá constantemente midiendo los datos de su entorno, utilizando los sensores que posee, para que esta información sea posteriormente transmitida a la estación terrena, donde será procesada y plasmada en gráficos.
+                    </p>
+                </div>
+                <div class="part">
+                    <p>
+                        Mediante los componentes del satélite y los resultados obtenidos, se podrá determinar, si un humano soporta las condiciones del ambiente en exploración (indicios como presencia de agua, buena presión, temperatura, capa de ozono), o si estas son nocivas para el mismo debido a extremas temperaturas o presiones, gases nocivos, ausencia de agua, mucha actividad sísmica o radiación.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="Equipo">
+            <div class="sectionText">
+                <h2>Equipo</h2>
+                <ul class="lista-equipo">
+                    <a href="">
+                        <li>Natalia Ventura</li>
+                    </a>
+                    <a href="">
+                        <li>Valentin Ferrari</li>
+                    </a>
+                    <a href="">
+                        <li>Aaron Mainero</li>
+                    </a>
+                    <a href="">
+                        <li>Román Martinez</li>
+                    </a>
+                    <a href="">
+                        <li>Luka Regner</li>
+                    </a>
+                    <a href="">
+                        <li>Bautista Rodriguez</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="sectionImage">
+                <img src="./img/equipo-png.png" alt="equipo">
+            </div>
+        </section>
+
+        <section id="Mas-Informacion">
+            <div class="sectionImage">
+                <img src="" alt="">
+            </div>
+            <div class="sectionText">
+                <h2>Más información</h2>
+                <p>
+                    Para ver el informe completo en digital los invitamos a ver el <a href="https://docs.google.com/document/d/1Wk_37Yds65JGqehq_mSPwrxgVfUB-ac-Pccb2Q3Ukl0/edit?usp=sharing">docs informativo</a> o <a download="informe-chipasat.pdf" href="./PDF/Chipasat - Instituto Padre Elizalde.pdf">descargar el PDF</a>
+                </p>
+            </div>
+        </section>
+        <footer>
+            
+        </footer>
+    </div>
+</body>
+</html>
