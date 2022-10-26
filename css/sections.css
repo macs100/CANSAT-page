@@ -26,6 +26,16 @@ section .h2{
 
 */
 
+.MoreInfoSectionText{
+    padding: 10px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    background: rgba(108, 207, 246, .3);
+    border-radius: 10px;
+}
+
 .sectionText{
     padding: 10px;
     text-align: justify;
@@ -137,6 +147,10 @@ a{
         font-size: 10px;
     }
     
+    .sectionText{
+        width: 90%;
+    }
+
 }
 
 @media screen and (max-width: 700px){
