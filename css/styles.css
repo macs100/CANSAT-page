@@ -31,3 +31,6 @@ body::-webkit-scrollbar-thumb {
     background: var(--grey);
     /* creates padding around scroll thumb */
 }
+.part{
+    margin: 10px 0px;
+}
