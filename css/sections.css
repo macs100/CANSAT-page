@@ -57,6 +57,14 @@ a{
     font-size: 40px;
 }
 
+.sectionText H6{
+    font-size: 40px;
+}
+
+.sectionText.caracts{
+    font-size: 20px;
+}
+
 .lista-equipo{
     margin: 5px;
     list-style: none;
@@ -121,6 +129,10 @@ a{
         font-weight: 900;
     }
 
+    h6{
+        font-size:25px!important; 
+    }
+    
     p{
         font-size: 10px;
     }
@@ -128,21 +140,21 @@ a{
 }
 
 @media screen and (max-width: 700px){
-
+    
     #openNav{
         margin-left: 90%;
     }
 }
 
 @media screen and (max-width: 550px){
-
+    
     #openNav{
         margin-left: 88%;
     }
 }
 
 @media screen and (max-width: 420px){
-
+    
     #openNav{
         margin-left: 83%;
     }
